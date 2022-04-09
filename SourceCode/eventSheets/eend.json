@@ -1,0 +1,146 @@
+{
+	"name": "Eend",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 741004375000689
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-style",
+					"objectClass": "Mouse",
+					"sid": 166814594299493,
+					"parameters": {
+						"cursor-style": "none"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "txtTut",
+					"sid": 952886862871871,
+					"parameters": {
+						"text": "\"[size=30]Thanks for playing[/size]\" & newline & newline & \"All your people died after \" & floor(TIMER/60) & \" minutes and \" & TIMER%60 & \" seconds.\" & newline & newline & \"You collected \" & GOLD & \" gold.\" & newline & newline & \"[i][size=18]Game made by J C ASH in 48 Hours for Ludum Dare 50. 2/4/22 - 4/4/22[/size][/i]\""
+					}
+				}
+			],
+			"sid": 394886549646646
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 368686031841513,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "menuButton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 726075108007148
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 235797752613246,
+					"parameters": {
+						"layout": "mainMenu"
+					}
+				}
+			],
+			"sid": 285435949483393
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 431626525001157
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "cursor",
+					"sid": 615823292108751,
+					"parameters": {
+						"x": "Mouse.X",
+						"y": "Mouse.Y"
+					}
+				}
+			],
+			"sid": 124052186813309
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 933577023476753,
+					"parameters": {
+						"key": 70
+					}
+				}
+			],
+			"actions": [],
+			"sid": 407251601041701,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-fullscreen",
+							"objectClass": "Browser",
+							"sid": 750770551656441
+						}
+					],
+					"actions": [
+						{
+							"id": "cancel-fullscreen",
+							"objectClass": "Browser",
+							"sid": 706618103375074
+						}
+					],
+					"sid": 832299724025820
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-fullscreen",
+							"objectClass": "Browser",
+							"sid": 761020474966738,
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "request-fullscreen",
+							"objectClass": "Browser",
+							"sid": 856893716844264,
+							"parameters": {
+								"mode": "stretch-scale-inner",
+								"navigation-ui": "auto"
+							}
+						}
+					],
+					"sid": 356587917627021
+				}
+			]
+		}
+	],
+	"sid": 862472678252615
+}

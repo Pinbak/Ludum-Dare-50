@@ -1,0 +1,11 @@
+{
+	"name": "famGoblin",
+	"plugin-id": "Sprite",
+	"sid": 473283397943080,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"goblin"
+	]
+}

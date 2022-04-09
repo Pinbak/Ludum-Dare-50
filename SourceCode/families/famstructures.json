@@ -1,0 +1,12 @@
+{
+	"name": "famStructures",
+	"plugin-id": "Sprite",
+	"sid": 463407791256565,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"building",
+		"resource"
+	]
+}

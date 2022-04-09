@@ -1,0 +1,50 @@
+{
+	"name": "recruitRandom",
+	"plugin-id": "Sprite",
+	"sid": 307078576182607,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "job",
+			"type": "string",
+			"desc": "",
+			"sid": 782436696002950
+		},
+		{
+			"name": "jobID",
+			"type": "number",
+			"desc": "",
+			"sid": 749614612735570
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 200,
+						"height": 63,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9213186,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 135526796313645,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "famToDestroy",
+	"plugin-id": "Sprite",
+	"sid": 310723126088067,
+	"instanceVariables": [
+		{
+			"name": "dontDestroy",
+			"type": "boolean",
+			"desc": "",
+			"sid": 495938648060846
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"person",
+		"building"
+	]
+}

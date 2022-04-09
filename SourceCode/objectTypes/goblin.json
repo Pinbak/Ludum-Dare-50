@@ -1,0 +1,113 @@
+{
+	"name": "goblin",
+	"plugin-id": "Sprite",
+	"sid": 583775348228724,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "health",
+			"type": "number",
+			"desc": "",
+			"sid": 807934957272173
+		},
+		{
+			"name": "currentState",
+			"type": "string",
+			"desc": "",
+			"sid": 763883689706986
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 899032986982529
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Moving",
+			"sid": 789576600887966
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 320964331415039
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 78,
+						"height": 75,
+						"originX": 0.5,
+						"originY": 0.9,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2767636,
+						"collisionPoly": {
+							"points": [
+								0.11752136752136756,
+								0.4488888888888885,
+								0.5769230769230768,
+								0.42222222222222217,
+								0.6303418803418808,
+								0.9777777777777779,
+								0.10042735042735042,
+								0.9555555555555554
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 665925839694019,
+				"name": "goblin",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 122,
+						"height": 114,
+						"originX": 0.5,
+						"originY": 0.9619047619047619,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2211776,
+						"collisionPoly": {
+							"points": [
+								0.2991071428571428,
+								0.4047619047619053,
+								0.6517857142857139,
+								0.3452380952380951,
+								0.7433035714285714,
+								1,
+								0.25223214285714285,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 102033651122348,
+				"name": "troll",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

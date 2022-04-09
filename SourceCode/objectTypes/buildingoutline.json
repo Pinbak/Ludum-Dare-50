@@ -1,0 +1,289 @@
+{
+	"name": "buildingOutline",
+	"plugin-id": "Sprite",
+	"sid": 553897381106516,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "gold",
+			"type": "number",
+			"desc": "",
+			"sid": 440576754807762
+		},
+		{
+			"name": "ss",
+			"type": "number",
+			"desc": "",
+			"sid": 115480349340054
+		},
+		{
+			"name": "flint",
+			"type": "number",
+			"desc": "",
+			"sid": 412798267803056
+		},
+		{
+			"name": "fibres",
+			"type": "number",
+			"desc": "",
+			"sid": 691903348550209
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 110,
+						"height": 72,
+						"originX": 0.5,
+						"originY": 0.7916666666666666,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5401996,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.6319444444444443,
+								0.9999999999999996,
+								0.6388888888888887,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 684995755851180,
+				"name": "smallHouse",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 150,
+						"height": 99,
+						"originX": 0.5,
+						"originY": 0.8333333333333334,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5790430,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.595959595959596,
+								1,
+								0.601010101010101,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 379821521258602,
+				"name": "largeHouse",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 162,
+						"height": 173,
+						"originX": 0.5,
+						"originY": 0.8930635838150289,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4753867,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.7601156069364169,
+								1,
+								0.7543352601156065,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 747915350789838,
+				"name": "farm",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 138,
+						"height": 72,
+						"originX": 0.5,
+						"originY": 0.7916666666666666,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9474842,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.5763888888888885,
+								1,
+								0.5763888888888892,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 542498216560303,
+				"name": "armory",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 153,
+						"height": 98,
+						"originX": 0.5,
+						"originY": 0.826530612244898,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1095654,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.7091836734693874,
+								1,
+								0.7040816326530617,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 957361036917868,
+				"name": "mine",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 153,
+						"height": 98,
+						"originX": 0.5,
+						"originY": 0.7857142857142857,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2084728,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.6785714285714285,
+								1,
+								0.6683673469387752,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 978311957582448,
+				"name": "smoker",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 110,
+						"height": 135,
+						"originX": 0.5,
+						"originY": 0.8888888888888888,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7122962,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.7888888888888889,
+								1,
+								0.7777777777777782,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 574277380580132,
+				"name": "tower",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

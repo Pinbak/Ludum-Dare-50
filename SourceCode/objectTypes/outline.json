@@ -1,0 +1,50 @@
+{
+	"name": "outline",
+	"plugin-id": "Sprite",
+	"sid": 322016165170822,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "personUID",
+			"type": "number",
+			"desc": "",
+			"sid": 698514234917910
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 960135309616274
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 60,
+						"height": 63,
+						"originX": 0.5,
+						"originY": 0.047619047619047616,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7340168,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 275016433455815,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

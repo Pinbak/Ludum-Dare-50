@@ -1,0 +1,15 @@
+{
+	"name": "txtTut",
+	"plugin-id": "Text",
+	"sid": 296045886805596,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 309879226286449
+		}
+	],
+	"effectTypes": []
+}

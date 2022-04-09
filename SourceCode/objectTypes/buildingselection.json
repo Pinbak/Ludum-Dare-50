@@ -1,0 +1,74 @@
+{
+	"name": "buildingSelection",
+	"plugin-id": "Sprite",
+	"sid": 729573388849454,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "building",
+			"type": "string",
+			"desc": "",
+			"sid": 985877812351458
+		},
+		{
+			"name": "desc",
+			"type": "string",
+			"desc": "",
+			"sid": 690565696006403
+		},
+		{
+			"name": "costGold",
+			"type": "number",
+			"desc": "",
+			"sid": 276066929806901
+		},
+		{
+			"name": "costFlint",
+			"type": "number",
+			"desc": "",
+			"sid": 974570983744318
+		},
+		{
+			"name": "costFibres",
+			"type": "number",
+			"desc": "",
+			"sid": 580027959598617
+		},
+		{
+			"name": "costSS",
+			"type": "number",
+			"desc": "",
+			"sid": 551329595958043
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 10,
+						"height": 10,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4618687,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 495869192549130,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

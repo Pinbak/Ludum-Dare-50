@@ -1,0 +1,348 @@
+{
+	"name": "person",
+	"plugin-id": "Sprite",
+	"sid": 688753233500711,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "selected",
+			"type": "boolean",
+			"desc": "",
+			"sid": 420552152148418
+		},
+		{
+			"name": "currentState",
+			"type": "string",
+			"desc": "",
+			"sid": 279327959067045
+		},
+		{
+			"name": "job",
+			"type": "string",
+			"desc": "",
+			"sid": 742790612563247
+		},
+		{
+			"name": "task",
+			"type": "string",
+			"desc": "",
+			"sid": 428571494339488
+		},
+		{
+			"name": "hunger",
+			"type": "number",
+			"desc": "",
+			"sid": 115549087615967
+		},
+		{
+			"name": "health",
+			"type": "number",
+			"desc": "",
+			"sid": 105623899412379
+		},
+		{
+			"name": "breeding",
+			"type": "number",
+			"desc": "",
+			"sid": 898951813635184
+		},
+		{
+			"name": "age",
+			"type": "number",
+			"desc": "",
+			"sid": 131906916543609
+		},
+		{
+			"name": "houseID",
+			"type": "number",
+			"desc": "",
+			"sid": 488954595101574
+		},
+		{
+			"name": "jobID",
+			"type": "number",
+			"desc": "",
+			"sid": 826507242839036
+		},
+		{
+			"name": "jobX",
+			"type": "number",
+			"desc": "",
+			"sid": 768739155733482
+		},
+		{
+			"name": "jobY",
+			"type": "number",
+			"desc": "",
+			"sid": 339107938208900
+		},
+		{
+			"name": "gold",
+			"type": "number",
+			"desc": "",
+			"sid": 691224867690510
+		},
+		{
+			"name": "flint",
+			"type": "number",
+			"desc": "",
+			"sid": 442946578231827
+		},
+		{
+			"name": "sandstone",
+			"type": "number",
+			"desc": "",
+			"sid": 558783227174897
+		},
+		{
+			"name": "fibres",
+			"type": "number",
+			"desc": "",
+			"sid": 418008071639505
+		},
+		{
+			"name": "food",
+			"type": "number",
+			"desc": "",
+			"sid": 574017065162054
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Moving",
+			"sid": 976102122591334
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Work",
+			"sid": 353348854957827
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 929476339705724
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Breathing",
+			"sid": 807315253875104
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 559743636030314
+		},
+		{
+			"behaviorId": "custom",
+			"name": "Custom",
+			"sid": 140828127277199
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 615434742695098
+		},
+		{
+			"behaviorId": "Tween",
+			"name": "Tween",
+			"sid": 365094511769879
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 66,
+						"height": 62,
+						"originX": 0.5,
+						"originY": 0.8888888888888888,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4006002,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "top",
+								"x": 0.5,
+								"y": 0
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 847072859498330,
+				"name": "peasant",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 85,
+						"height": 81,
+						"originX": 0.5,
+						"originY": 0.8888888888888888,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9283796,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "top",
+								"x": 0.5,
+								"y": 0
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 453998873116598,
+				"name": "armory",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 53,
+						"height": 62,
+						"originX": 0.5,
+						"originY": 0.9193548387096774,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7240467,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "top",
+								"x": 0.5,
+								"y": 0
+							},
+							{
+								"name": "shoot",
+								"x": 0.22641509433962265,
+								"y": 0.0967741935483871
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 658217736160320,
+				"name": "tower",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 65,
+						"height": 62,
+						"originX": 0.5,
+						"originY": 0.9032258064516129,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6492330,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "top",
+								"x": 0.5,
+								"y": 0
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 722144201957523,
+				"name": "mine",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 67,
+						"height": 63,
+						"originX": 0.5,
+						"originY": 0.9285714285714286,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5465802,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "top",
+								"x": 0.5,
+								"y": 0
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 649748534619124,
+				"name": "farm",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 69,
+						"height": 83,
+						"originX": 0.5,
+						"originY": 0.9216867469879518,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7794527,
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "top",
+								"x": 0.5,
+								"y": 0
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 695223421664297,
+				"name": "smoker",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

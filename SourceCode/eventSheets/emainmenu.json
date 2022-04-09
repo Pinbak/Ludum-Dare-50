@@ -1,0 +1,219 @@
+{
+	"name": "EmainMenu",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 830885171407019
+				}
+			],
+			"actions": [
+				{
+					"id": "set-cursor-style",
+					"objectClass": "Mouse",
+					"sid": 593617697375354,
+					"parameters": {
+						"cursor-style": "none"
+					}
+				}
+			],
+			"sid": 660625256296924
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 865025220344615,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "small"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 174677817153783,
+					"parameters": {
+						"variable": "SCALE",
+						"value": "0.7"
+					}
+				},
+				{
+					"id": "set-default-color",
+					"objectClass": "small",
+					"sid": 775175467983991,
+					"parameters": {
+						"color": "rgbEx255(190, 254, 218)"
+					}
+				},
+				{
+					"id": "set-default-color",
+					"objectClass": "large",
+					"sid": 915122994766673,
+					"parameters": {
+						"color": "rgbEx255(254, 169, 169)"
+					}
+				}
+			],
+			"sid": 237315139950742
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 554920969173815,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "large"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 628349613056359,
+					"parameters": {
+						"variable": "SCALE",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-default-color",
+					"objectClass": "large",
+					"sid": 501240588874779,
+					"parameters": {
+						"color": "rgbEx255(190, 254, 218)"
+					}
+				},
+				{
+					"id": "set-default-color",
+					"objectClass": "small",
+					"sid": 301187023973714,
+					"parameters": {
+						"color": "rgbEx255(254, 169, 169)"
+					}
+				}
+			],
+			"sid": 836299845754229
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 358817014237941,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "playButton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 602093829870386,
+					"parameters": {
+						"layout": "main"
+					}
+				}
+			],
+			"sid": 739598685928020
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 389048786915100
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "cursor",
+					"sid": 492846734508187,
+					"parameters": {
+						"x": "Mouse.X",
+						"y": "Mouse.Y"
+					}
+				}
+			],
+			"sid": 900147499886550
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 519980528088724,
+					"parameters": {
+						"key": 70
+					}
+				}
+			],
+			"actions": [],
+			"sid": 297132747637949,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-fullscreen",
+							"objectClass": "Browser",
+							"sid": 454417795362489
+						}
+					],
+					"actions": [
+						{
+							"id": "cancel-fullscreen",
+							"objectClass": "Browser",
+							"sid": 550536502337602
+						}
+					],
+					"sid": 565870587486191
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-fullscreen",
+							"objectClass": "Browser",
+							"sid": 155625670564467,
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "request-fullscreen",
+							"objectClass": "Browser",
+							"sid": 692936836556593,
+							"parameters": {
+								"mode": "stretch-scale-inner",
+								"navigation-ui": "auto"
+							}
+						}
+					],
+					"sid": 280370772972009
+				}
+			]
+		}
+	],
+	"sid": 810667707899837
+}

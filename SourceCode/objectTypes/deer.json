@@ -1,0 +1,95 @@
+{
+	"name": "deer",
+	"plugin-id": "Sprite",
+	"sid": 607672498366443,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "decay",
+			"type": "number",
+			"desc": "",
+			"sid": 380160178675399
+		},
+		{
+			"name": "alive",
+			"type": "boolean",
+			"desc": "",
+			"sid": 735477453943164
+		},
+		{
+			"name": "breeding",
+			"type": "number",
+			"desc": "",
+			"sid": 398801212386657
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Moving",
+			"sid": 254869282146688
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 399637588247516
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 310697525741456
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 99,
+						"height": 85,
+						"originX": 0.5,
+						"originY": 0.8529411764705882,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 132388,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 618446501578723,
+				"name": "alive",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 102,
+						"height": 39,
+						"originX": 0.5,
+						"originY": 0.8589743589743589,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9451360,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 965775187239576,
+				"name": "dead",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

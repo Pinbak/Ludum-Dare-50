@@ -1,0 +1,16 @@
+{
+	"name": "famOrder",
+	"plugin-id": "Sprite",
+	"sid": 167357499150278,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"building",
+		"person",
+		"resource",
+		"selected",
+		"selectingTarget",
+		"deer"
+	]
+}

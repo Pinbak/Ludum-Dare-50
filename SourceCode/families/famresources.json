@@ -1,0 +1,11 @@
+{
+	"name": "famResources",
+	"plugin-id": "Sprite",
+	"sid": 506431145182108,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"resource"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "txtResources",
+	"plugin-id": "Text",
+	"sid": 852867480676515,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 884410777772455
+		}
+	],
+	"effectTypes": []
+}

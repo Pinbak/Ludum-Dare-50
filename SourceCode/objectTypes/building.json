@@ -1,0 +1,342 @@
+{
+	"name": "building",
+	"plugin-id": "Sprite",
+	"sid": 122897574020318,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "id",
+			"type": "number",
+			"desc": "",
+			"sid": 522481777010861
+		},
+		{
+			"name": "food",
+			"type": "number",
+			"desc": "",
+			"sid": 856004375497115
+		},
+		{
+			"name": "occupants",
+			"type": "number",
+			"desc": "",
+			"sid": 422026016917205
+		},
+		{
+			"name": "occupancy",
+			"type": "number",
+			"desc": "",
+			"sid": 544690029134325
+		},
+		{
+			"name": "type",
+			"type": "string",
+			"desc": "",
+			"sid": 539705436048676
+		},
+		{
+			"name": "targetX",
+			"type": "number",
+			"desc": "",
+			"sid": 252971366943474
+		},
+		{
+			"name": "targetY",
+			"type": "number",
+			"desc": "",
+			"sid": 933843924872678
+		},
+		{
+			"name": "health",
+			"type": "number",
+			"desc": "",
+			"sid": 777437821164930
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 110,
+						"height": 72,
+						"originX": 0.5,
+						"originY": 0.7916666666666666,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1191040,
+						"collisionPoly": {
+							"points": [
+								0.5666666666666674,
+								0,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 308222532262649,
+				"name": "smallHouse",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 150,
+						"height": 99,
+						"originX": 0.5,
+						"originY": 0.8333333333333334,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3470297,
+						"collisionPoly": {
+							"points": [
+								0.5600000000000005,
+								0,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 521868096621799,
+				"name": "largeHouse",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 162,
+						"height": 173,
+						"originX": 0.5,
+						"originY": 0.8930635838150289,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2983051,
+						"collisionPoly": {
+							"points": [
+								0.23765432098765427,
+								0.21676300578034677,
+								0.7561728395061726,
+								0.20231213872832363,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 836709062534753,
+				"name": "farm",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 138,
+						"height": 72,
+						"originX": 0.5,
+						"originY": 0.7916666666666666,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5555815,
+						"collisionPoly": {
+							"points": [
+								0.18478260869565227,
+								0,
+								0.8442028985507241,
+								0,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 912849722763567,
+				"name": "armory",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 65,
+						"height": 33,
+						"originX": 0.5,
+						"originY": 0.803030303030303,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6748980,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 256599952016201,
+				"name": "firepit",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 153,
+						"height": 98,
+						"originX": 0.5,
+						"originY": 0.826530612244898,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5985211,
+						"collisionPoly": {
+							"points": [
+								0.1209150326797386,
+								0.3316326530612246,
+								0.5049019607843137,
+								0.3188775510204083,
+								0.5163398692810456,
+								0.00510204081632653,
+								1,
+								0,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 870091203567512,
+				"name": "mine",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 153,
+						"height": 98,
+						"originX": 0.5,
+						"originY": 0.7857142857142857,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2936797,
+						"collisionPoly": {
+							"points": [
+								0.15686274509803927,
+								0,
+								0.8954248366013076,
+								0,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 871541528642914,
+				"name": "smoker",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 110,
+						"height": 135,
+						"originX": 0.5,
+						"originY": 0.8888888888888888,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4086074,
+						"collisionPoly": {
+							"points": [
+								0.1772727272727273,
+								0.7370370370370359,
+								0.06136363636363612,
+								0,
+								1,
+								0,
+								0.8681818181818184,
+								0.7777777777777767,
+								1,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "top",
+								"x": 0.5,
+								"y": 0.07407407407407407
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 866381780433817,
+				"name": "tower",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

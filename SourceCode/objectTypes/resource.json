@@ -1,0 +1,119 @@
+{
+	"name": "resource",
+	"plugin-id": "Sprite",
+	"sid": 542127411887524,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "decay",
+			"type": "number",
+			"desc": "",
+			"sid": 115632905802409
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 440201195142931
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 104,
+						"height": 65,
+						"originX": 0.5,
+						"originY": 0.8076923076923077,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 177664,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 824751001269348,
+				"name": "flint",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 104,
+						"height": 65,
+						"originX": 0.5,
+						"originY": 0.823076923076923,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5684635,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 522741953320415,
+				"name": "gold",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 77,
+						"height": 51,
+						"originX": 0.5,
+						"originY": 0.8725490196078431,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9132784,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 488779744156356,
+				"name": "fibres",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 97,
+						"height": 89,
+						"originX": 0.5,
+						"originY": 0.8707865168539326,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5885050,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 171532973692379,
+				"name": "sandStone",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
