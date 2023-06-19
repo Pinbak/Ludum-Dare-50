@@ -1,6 +1,6 @@
 # Ludum-Dare-50
 
-Ludum Dare 50 Project.
+Ludum Dare 50 Project. Made in Construct 3.
 
 ## Table of Contents
 - [Installation](#installation)
